@@ -3,7 +3,7 @@
   <remote fetch="https://github.com/xiaomi-sm6225" name="xiaomi-sm6225"/>
 
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="xiaomi-sm6225" >
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" revision="lineage-22.2" remote="xiaomi-sm6225" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
