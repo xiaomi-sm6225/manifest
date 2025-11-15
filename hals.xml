@@ -34,6 +34,8 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8750/Android.mk" />
   </project>
 
   <project path="hardware/qcom-caf/sm6225/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,divar-audio" revision="lineage-22.2-caf-sm6225" remote="xiaomi-sm6225" />
